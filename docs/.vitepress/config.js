@@ -11,7 +11,7 @@ module.exports = {
 				text: 'Introduction',
 				items: [
 					{ text: 'About the theme', link: '/intro/theme' },
-					{ text: "Candidus' features", link: '/intro/features' },
+					{ text: 'Feature overview', link: '/intro/features' },
 					{ text: 'Page structure', link: '/intro/pages' },
 				],
 			},
