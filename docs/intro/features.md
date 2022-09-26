@@ -17,20 +17,21 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 ## Candidus Theme features
 
 - Prebuilt static content
-  - Login & signup page
-  - Themed call to action
+  - Login & signup pages
   - Tag & author - pages
-  - Customizable 404 - page (TBD)
+  - A themed call to action
 - Light & dark theme
 - Self-hosted fonts
 - Two additional customizable theme colors
 - Additional social accounts & icons
 - Card & feed layout for posts
 - A mobile friendly gallery for featured posts
-- A reading-progressbar that estimates the remaining reading time (TBD)
+- A reading-progressbar
 - A table of contents section (TBD)
 - A thoroughly designed post section
 - A social sharing toolbar
+- A bookmarking feature
+- A quote image generator (TBD)
 
 ## Missing something? Request it
 

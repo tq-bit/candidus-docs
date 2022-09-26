@@ -30,10 +30,13 @@ module.exports = {
 						text: 'Post reading progress',
 						link: '/customization/post/reading-progress',
 					},
-
 					{
 						text: 'Related posts',
 						link: '/customization/post/related-posts',
+					},
+					{
+						text: 'Bookmarks',
+						link: '/customization/post/bookmarks',
 					},
 				],
 			},
@@ -47,6 +50,19 @@ module.exports = {
 					{
 						text: 'Code editor colors',
 						link: '/plugins/code-colors',
+					},
+				],
+			},
+			{
+				text: 'Support',
+				items: [
+					{
+						text: 'Contact us',
+						link: '/contact/form',
+					},
+					{
+						text: 'Request a translation',
+						link: '/contact/translation',
 					},
 				],
 			},
