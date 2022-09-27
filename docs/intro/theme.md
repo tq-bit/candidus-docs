@@ -30,8 +30,8 @@ If your audience is more sophisticated, you'll want to keep them engaged. Candid
 
 If you're tech savy, you'll want to be sure your site withstands the tooth of time. Candidus makes use of modern technologies and methods.
 
-- [Modular SCSS](http://smacss.com/) and [Typescript](https://www.typescriptlang.org/) make code and styles more robust and efficient.
-- [Webpack 5](https://webpack.js.org/concepts/why-webpack/) - All pages load only what they need. Say goodbye to unnecessary CSS and Javascript
-- [Self-hosted fonts](https://blog.q-bit.me/how-to-self-host-google-fonts-part-one/) - Make your publication GDPR - compliant and less reliant on third-party infrastructure
-- [HTML-validator](https://validator.w3.org/) & [Lighthouse scoring](https://pagespeed.web.dev/) - Keep your publication performant and compliant to modern standards
-
+- Using [Modular SCSS](http://smacss.com/) and [Typescript](https://www.typescriptlang.org/) while developing make code and styles more robust and efficient
+- By choosing [Webpack 5](https://webpack.js.org/concepts/why-webpack/) as Candidus' backbone, all pages load only what styles and scripts they need
+- [Block helpers](https://handlebarsjs.com/guide/block-helpers.html) disable loading scripts of inactive custom features
+- [Self-hosted fonts](https://blog.q-bit.me/how-to-self-host-google-fonts-part-one/) keep your publication GDPR - compliant and less reliant on third-party infrastructure
+- A variety of tests using [HTML-validator](https://validator.w3.org/) & [Lighthouse scoring](https://pagespeed.web.dev/) keep your publication performant and compliant to modern standards

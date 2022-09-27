@@ -2,6 +2,7 @@
   import {ref} from 'vue'
   import Checklist from '../../components/Checklist.vue'
   import Color from '../../components/Color.vue'
+  import SiteOutput from '../../components/SiteOutput.vue';
 
   const localKey = 'checklist';
   const defaultChecklist = [{
@@ -64,7 +65,7 @@ Congratulations on your new favorite Ghost theme! We hope you'll have lots of fu
 
 ## Quickstart
 
-At a bare minimum, you should customize the following points:
+At a bare minimum, you should customize the following in your Ghost admin panel: <br> <SiteOutput path="ghost/#/settings" />
 
 - Change the Ghost accent color under `Settings > Design > Brand > Accent color`. <Color text="We recommend using this light blue variation - #bdc5d4" color="#bdc5d4"/>
 - If you're using [Ghost's membership flow](https://ghost.org/help/topic/members/), activate the built-in [static member pages](../customization/static-pages.md)
