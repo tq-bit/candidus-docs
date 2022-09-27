@@ -10,24 +10,29 @@ module.exports = {
 			{
 				text: 'Introduction',
 				items: [
-					{ text: 'About the theme', link: '/intro/theme' },
+					{ text: 'Getting started', link: '/intro/getting-started' },
 					{ text: 'Feature overview', link: '/intro/features' },
 					{ text: 'Page structure', link: '/intro/pages' },
+					{ text: 'About the theme', link: '/intro/theme' },
 				],
 			},
 			{
-				text: 'Customization',
+				text: 'Theme features & customization',
 				items: [
 					{
 						text: 'Colors',
 						link: '/customization/site/colors',
 					},
 					{
-						text: 'Banner and featured posts',
+						text: 'Banner & featured posts',
 						link: '/customization/site/banner-and-featured-posts',
 					},
 					{
-						text: 'Post reading progress',
+						text: 'Login & signup pages',
+						link: '/customization/site/static-pages',
+					},
+					{
+						text: 'Reading progress bar',
 						link: '/customization/post/reading-progress',
 					},
 					{

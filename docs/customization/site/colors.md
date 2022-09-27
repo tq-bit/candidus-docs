@@ -14,7 +14,7 @@ The default Candidus theme ships with two default colors. It also [Ghost's accen
 
 ## Considerations when changing colors
 
-The default pallette is optimized to be displayed with [Candidus' light and dark theme](../../features/theming.md). If you decide to make changes, we recommend considering the following points:
+The default pallette is optimized to be displayed with [Candidus' light and dark theme](../../customization/theming.md). If you decide to make changes, we recommend considering the following points:
 
 - Consider [color theory](https://en.wikipedia.org/wiki/Color_theory). Use it to give visitors a sense of formality or a warm welcome
 - Check how the colors play together with the theme's font family
