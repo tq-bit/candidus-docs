@@ -1,16 +1,18 @@
 <script setup>
   import SiteInput from '../../../components/SiteInput.vue';
+  import SiteOutput from '../../../components/SiteOutput.vue';
   import Color from '../../../components/Color.vue'
 </script>
 
 # Customize Candidus colors
 
-The default Candidus theme ships with two default colors. It also [Ghost's accent colour](https://ghost.org/help/branding-settings/) for smaller elements, such as buttons and tags. All three can be customized under the design section in Ghost's admin panel.
+Candidus ships with two default colors and uses [Ghost's accent color](https://ghost.org/help/branding-settings/). All three can be customized under the design section in Ghost's admin panel.
+
+<SiteOutput path="ghost/#/settings/design" />
 
 - `Settings > Design > Site Wide > Primary/Secondary Color`
 - `Settings > Design > Brand > Accent color`
 
-<SiteInput path="ghost/#/settings/design"></SiteInput>
 
 ## Considerations when changing colors
 

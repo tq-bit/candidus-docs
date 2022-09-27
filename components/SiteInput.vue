@@ -1,16 +1,16 @@
 <script setup>
-import { ref, computed } from 'vue';
-const siteUrl = ref('blog.q-bit.me');
+import urlStore from './store/url';
+
+const siteUrl = urlStore.getBlogUrl;
 const props = defineProps({
 	path: { type: String },
 });
-const url = computed(() => `https://${siteUrl.value}/${props.path}`);
+const onChange = (ev) => urlStore.setBlogUrl(ev.target.value);
 </script>
 
 <template>
 	<label for="site-input">Enter your blog's domain:</label>
-	<input name="site-input" type="url" v-model="siteUrl" />
-	<a :href="url" target="_blank">{{ url }}</a>
+	<input name="site-input" type="url" :value="siteUrl" @keyup="onChange" />
 </template>
 
 <style scoped>
@@ -25,8 +25,5 @@ input {
 	padding: 0.25rem 0.5rem;
 	border: 1px solid gray;
 	border-radius: 0.25rem;
-}
-a {
-	display: block;
 }
 </style>
