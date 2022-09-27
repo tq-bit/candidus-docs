@@ -8,9 +8,9 @@ const url = computed(() => `https://${siteUrl.value}/${props.path}`);
 </script>
 
 <template>
-	<label for="site-input">Enter your blog's adress:</label>
+	<label for="site-input">Enter your blog's domain:</label>
 	<input name="site-input" type="url" v-model="siteUrl" />
-	<a :href="url" target="_blank">Matching link: {{ url }}</a>
+	<a :href="url" target="_blank">{{ url }}</a>
 </template>
 
 <style scoped>
