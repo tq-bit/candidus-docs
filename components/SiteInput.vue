@@ -9,7 +9,7 @@ const onChange = (ev) => urlStore.setBlogUrl(ev.target.value);
 </script>
 
 <template>
-	<label for="site-input">Enter your blog's domain:</label>
+	<label for="site-input">Please enter your blog's domain:</label>
 	<input name="site-input" type="url" :value="siteUrl" @keyup="onChange" />
 </template>
 

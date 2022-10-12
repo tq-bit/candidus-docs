@@ -27,7 +27,7 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 - Card & feed layout for posts
 - A mobile friendly gallery for featured posts
 - A reading-progressbar
-- A table of contents section (TBD)
+- A table of contents section
 - A thoroughly designed post section
 - A social sharing toolbar
 - A bookmarking feature

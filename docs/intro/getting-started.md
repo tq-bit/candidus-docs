@@ -61,7 +61,7 @@
 
 # Getting started with Candidus
 
-Congratulations on your new favorite Ghost theme! We hope you'll have lots of fun using Candidus as your publication's cover. You can jump right into creating content, however, we recommend making a few minor tweaks before you dive in.
+
 
 ## Quickstart
 
