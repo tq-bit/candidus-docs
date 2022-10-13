@@ -2,7 +2,7 @@
   import SiteOutput from '../../../components/SiteOutput.vue'
 </script>
 
-# Post reading progress indicator
+# Reading progress bar
 
 Show users how much of your article they've already read by activating a progressbar right above the posts's content. This type of progress indicator is popular on technical- or review blogs with longer and more detailled content.
 

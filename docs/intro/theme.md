@@ -26,9 +26,9 @@ Candidus, translated from latin, means as much as 'white', 'bright' or 'open'. I
 
 Candidus takes an opinionated, minimalistic approach to keep your audience's attention:
 
-- No overloaded index page. It's the page's banner or featured posts, not both.
-- No fancy features ([that is, unless you want to](#3-maximize-user-experience-empower-the-publisher))
-- Three theme colors. One from Ghost, two from Candidus
+- No overloaded index page. First imressions matter, so it's the page's banner or featured posts, not both.
+- Many custom features are disabled by default to make the most of site speed. You can, however, opt-in for conveniences such as [bookmarking](../customization/post/bookmarks.md) and [reading progress](../customization/post/reading-progress.md) if you like to.
+- Use our theme colors or bring your own. You get one from Ghost, two from Candidus
 
 ## 2. Let it shine, keep it simple
 

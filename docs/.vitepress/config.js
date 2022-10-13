@@ -20,6 +20,10 @@ module.exports = {
 				text: 'Theme features & customization',
 				items: [
 					{
+						text: 'Introduction',
+						link: '/customization/',
+					},
+					{
 						text: 'Colors',
 						link: '/customization/site/colors',
 					},
