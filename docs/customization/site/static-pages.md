@@ -7,6 +7,10 @@
 
 Candidus ships with two static member-focused pages. They differ from [the default Ghost pages](https://ghost.org/docs/publishing/#pages) insofar as they're shipped with the theme. All you have to do is to **create** an empty page with the right name and you're done.
 
+:::info
+This feature is **disabled** by default
+:::
+
 - [Example: preview image login page](#login-page)
 - [Example: preview image signup page](#signup-page)
 
