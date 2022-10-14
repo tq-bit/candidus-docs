@@ -76,7 +76,7 @@ Static pages are built into Ghost's core. Candidus ships with two pre-built, cus
 
 By creating a static page with the same name as the custom page, Ghost maps these two together. When a user visits your site, Ghost will pick up the custom page template rather than the empty static page.
 
-:::important
+:::warning MIND THE NAMES
 For this to work, the static page must have the exact same name as the custom page
 :::
 
