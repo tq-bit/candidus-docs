@@ -8,27 +8,37 @@
   const defaultChecklist = [{
     id: 1,
     done: false,
-    text: "Download Candidus & upload it to your publication",
+    text: "Get Candidus",
+    link: ""
+  },{
+    id: 2,
+    done: false,
+    text: "Upload it to your publication (external link)",
     link: "https://ghost.org/help/installing-a-theme/"
   }, {
-    id: 2,
+    id: 3,
     done: false,
     text: "Adjust colors to match your brand",
     link: "/candidus-docs/customization/site/colors.html"
   }, {
-    id: 3,
-    done: false,
-    text: "Activate additional features",
-    link: "/candidus-docs/intro/features.html#candidus-theme-features"
-  }, {
     id: 4,
     done: false,
-    text: "Activate static membership pages",
-    link: "/candidus-docs/customization/static-pages.html"
+    text: "Add your social media channels",
+    link: "/candidus-docs/plugins/social-icons.html"
   }, {
     id: 5,
     done: false,
-    text: "Add more todos to this list",
+    text: "Activate static membership pages",
+    link: "/candidus-docs/customization/site/static-pages"
+  },{
+    id: 6,
+    done: false,
+    text: "Customize your site",
+    link: "/candidus-docs/customization/"
+  },{
+    id: 7,
+    done: false,
+    text: "Write your first post and publish it 🎉",
     link: ""
   }]
 
@@ -75,4 +85,9 @@ At a bare minimum, you should customize the following in your Ghost admin panel:
 
 For your convenience, we've compiled a checklist to make the most out of your purchase. Its progress will be stored in your browser, so you can stop anytime and come back later.
 
+> We only assume that you've already setup your Ghost site and added a custom domain.
+
 <Checklist :items="todoItems" @change-item="onUpdate" />
+
+## Get Candidus
+

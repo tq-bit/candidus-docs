@@ -3,7 +3,7 @@
   import SiteOutput from '../../components/SiteOutput.vue';
 </script>
 
-# Customize your page
+# Customize your site
 
 During the development of Candidus, we asked ourselves: What would a blog look like we'd like to read and publish on? We've also looked closely at several other publications to get a clear picture of what works well in the real world and what doesn't.
 
