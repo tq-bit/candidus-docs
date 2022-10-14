@@ -10,17 +10,19 @@
 
 Thank you for taking the time to read how Candidus to be! We spent lots of time thinking every component of the theme through and hope you're happy with the final result.
 
+## About its creators
+
 With "we", I'm referring to:
 <Grid>
   <Person :image="ImageCvi" name="Tsvetomira Dichevska" text="My partner in design and in life" link="https://www.linkedin.com/in/tsvetomira-dichevska/" />
   <Person :image="ImageTobi" name="Tobias Quante" text="Myself, a self-taught developer" link="https://www.linkedin.com/in/tobias-quante-764aa1140/" />
 </Grid>
 
+## Candidus Philosophy
+
 Candidus, translated from latin, means as much as 'white', 'bright' or 'open'. Its name emphasizes the theme's philosophy. We've built Candidus around three core pillars:
 
-
-
-## 1. Spotlight the content, don't steal the show
+### 1. Spotlight the content, don't steal the show
 
 [It takes a visitor of your website 50 milliseconds to decide whether they'll keep reading](https://cxl.com/blog/first-impressions-matter-the-importance-of-great-visual-design/#:~:text=People%20make%20snap%20judgments.,they'll%20stay%20or%20leave.). So you better make a good first impression.
 
@@ -30,13 +32,13 @@ Candidus takes an opinionated, minimalistic approach to keep your audience's att
 - Many custom features are disabled by default to make the most of site speed. You can, however, opt-in for conveniences such as [bookmarking](../customization/post/bookmarks.md) and [reading progress](../customization/post/reading-progress.md) if you like to.
 - Use our theme colors or bring your own. You get one from Ghost, two from Candidus
 
-## 2. Let it shine, keep it simple
+### 2. Let it shine, keep it simple
 
 Candidus provides a flat, grid-based layout and emphasizes your content where it's necessary. All theme pages are trimmed to highlight your publication's message and make use of Ghost's fantastic built-in features.
 
 [Read more about built-in Ghost features here](../customization/index.md)
 
-## 3. Peak user experience, empower the publisher
+### 3. Peak user experience, empower the publisher
 
 If your audience is more sophisticated, you'll want to keep them engaged. Candidus comes with several feautres you can opt-in for in your administration panel.
 
