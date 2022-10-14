@@ -68,7 +68,7 @@
 At a bare minimum, you should customize the following in your Ghost admin panel: <br> <SiteOutput path="ghost/#/settings" />
 
 - Change the Ghost accent color under `Settings > Design > Brand > Accent color`. <Color text="We recommend using this light blue variation - #bdc5d4" color="#bdc5d4"/>
-- If you're using [Ghost's membership flow](https://ghost.org/help/topic/members/), activate the built-in [static member pages](../customization/static-pages.md)
+- If you're using [Ghost's membership flow](https://ghost.org/help/topic/members/), activate the built-in [static member pages](../customization/site/static-pages.md)
 
 
 ## Checklist
