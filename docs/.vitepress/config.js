@@ -57,6 +57,10 @@ module.exports = {
 						link: '/plugins/social-icons',
 					},
 					{
+						text: 'Annoucement bar',
+						link: '/plugins/annoucement-bar',
+					},
+					{
 						text: 'Code editor colors',
 						link: '/plugins/code-colors',
 					},
