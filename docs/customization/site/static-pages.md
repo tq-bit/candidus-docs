@@ -32,16 +32,16 @@ You can enable memberships in your settings. Select one of the following `Subscr
 - Anyone can sign up
 - Only people I invite
 
-Link: <SiteOutput path="ghost/#/settings/members" />
+Link: <ClientOnly> <SiteOutput path="ghost/#/settings/members" /> </ClientOnly>
 
 ## 2. Create the login page
 
 Create a new page with the exact name of `login` under your publication's pages. Publish it. It must not have any other content but the headline.
 
-Add the page here: <SiteOutput path="ghost/#/pages" />
+Add the page here: <ClientOnly> <SiteOutput path="ghost/#/pages" /> </ClientOnly>
 
 :::tip
-You can check if the page creation was successful by visiting <SiteOutput path="login" />
+You can check if the page creation was successful by visiting <ClientOnly> <SiteOutput path="login" /> </ClientOnly>
 :::
 
 ## 3. Create the signup page
@@ -49,26 +49,26 @@ You can check if the page creation was successful by visiting <SiteOutput path="
 Create a new page with the exact name of `signup` under your publication's pages:   Publish it. It must not have any other content but the headline.
  publication's pages. Publish it. It must not have any other content but the headline.
 
-Add the page here: <SiteOutput path="ghost/#/pages" />
+Add the page here: <ClientOnly> <SiteOutput path="ghost/#/pages" /></ClientOnly>
 
 :::tip
-You can check if the page creation was successful by visiting <SiteOutput path="signup" />
+You can check if the page creation was successful by visiting <ClientOnly> <SiteOutput path="signup" /></ClientOnly>
 :::
 
 ## 4. Use a custom member form image
 
 Candidus allows you to add your own background image to both of these pages. If you do not specify one, the publication cover will be used by default.
 
-To change the image, go to <SiteOutput path="ghost/#/settings/design" /> `> Site-wide > Member form image`. Click on `Upload` and select an image of your liking.
+To change the image, go to <ClientOnly> <SiteOutput path="ghost/#/settings/design" /> </ClientOnly> `> Site-wide > Member form image`. Click on `Upload` and select an image of your liking.
 
 
 ## 5. Overwrite sidebar navigation (optional)
 
 Now that you have both member pages available, you might want to overwrite the 'Sign up' and 'Log in' - buttons of your sidebar navigation.
 
-By default, these buttons will activate the built-in Ghost 'Portal' - feature and open a modal rather than directing to the member pages. You can overwrite this behavior by going into your design settings under <SiteOutput path="ghost/#/settings/design" /> `> Site-wide > Use static member pages`. Once this is done, 'Sign up' and 'Login' will direct a user to the respective pages.
+By default, these buttons will activate the built-in Ghost 'Portal' - feature and open a modal rather than directing to the member pages. You can overwrite this behavior by going into your design settings under <ClientOnly> <SiteOutput path="ghost/#/settings/design" /> </ClientOnly> `> Site-wide > Use static member pages`. Once this is done, 'Sign up' and 'Login' will direct a user to the respective pages.
 
-Alternatively, you can add the respective links into your page's secondary navigation: <SiteOutput path="ghost/#/settings/navigation" />
+Alternatively, you can add the respective links into your page's secondary navigation: <ClientOnly> <SiteOutput path="ghost/#/settings/navigation" /></ClientOnly>
 
 ## How does it work?
 

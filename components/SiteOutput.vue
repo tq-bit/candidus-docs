@@ -1,13 +1,13 @@
 <script setup>
-import { computed } from 'vue';
+import { ref, computed } from 'vue';
 import urlStore from './store/url';
 
-const siteUrl = urlStore.getBlogUrl;
+const siteUrl = window ? urlStore.getBlogUrl : ref('');
 const props = defineProps({
 	path: { type: String },
 });
 const url = computed(() => `https://${siteUrl.value}/${props.path}`);
-const onChange = (ev) => urlStore.setBlogUrl(ev.target.value);
+const onChange = (ev) => (window ? urlStore.setBlogUrl(ev.target.value) : null);
 </script>
 
 <template>

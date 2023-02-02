@@ -14,7 +14,7 @@ This feature is **disabled** by default.
 
 This feature can be enabled in your Ghost design settings under
 
-<SiteOutput path="ghost/#/settings/design" /> `> Posts > Enable post reading progress bar`
+<ClientOnly> <SiteOutput path="ghost/#/settings/design" /> </ClientOnly> `> Posts > Enable post reading progress bar`
 
 ## How does it work?
 

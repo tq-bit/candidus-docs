@@ -14,7 +14,7 @@ This feature is **enabled** by default.
 
 This feature can be enabled in your Ghost design settings under
 
-<SiteOutput path="ghost/#/settings/design" /> `> Posts > Show related posts`
+<ClientOnly> <SiteOutput path="ghost/#/settings/design" /></ClientOnly>  `> Posts > Show related posts`
 
 ## How does it work?
 

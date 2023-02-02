@@ -45,7 +45,7 @@ Candidus shows your social media profiles in the page's footer, next to tags and
 
 To add your Github Profile, just add the following piece of code into your page's code injection:
 
-<SiteOutput path="ghost/#/settings/code-injection" />
+<ClientOnly> <SiteOutput path="ghost/#/settings/code-injection" /> </ClientOnly>
 
 ```html
 <script>
@@ -76,7 +76,7 @@ Let's do another one. Let's assume that next to your Github profile, you'll also
 Move to Code Injection again and extend the `SOCIAL_ACCOUNT` from before like this:
 
 
-<SiteOutput path="ghost/#/settings/code-injection" />
+<ClientOnly> <SiteOutput path="ghost/#/settings/code-injection" /></ClientOnly>
 
 ```html {9-13}
 <script>

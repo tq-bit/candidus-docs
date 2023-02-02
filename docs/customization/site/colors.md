@@ -1,5 +1,4 @@
 <script setup>
-  import SiteInput from '../../../components/SiteInput.vue';
   import SiteOutput from '../../../components/SiteOutput.vue';
   import Color from '../../../components/Color.vue'
 </script>
@@ -17,7 +16,7 @@ Ghost's default color is not automatically changed when you upload the theme. <b
 
 You can change the default colors in your design settings:
 
-<SiteOutput path="ghost/#/settings/design" />
+<ClientOnly> <SiteOutput path="ghost/#/settings/design" /></ClientOnly>
 
 - `Settings > Design > Site Wide > Primary/Secondary Color`
 - `Settings > Design > Brand > Accent color`
@@ -32,7 +31,7 @@ We ship (and recommend) a combination of the following three colors:
 
 ## Considerations when changing colors
 
-The default pallette is optimized to be displayed with [Candidus' light and dark theme](../../customization/theming.md). If you decide to make changes, we recommend considering the following points:
+The default pallette is optimized to be displayed with [Candidus' light and dark theme](../../customization/site/theming.md). If you decide to make changes, we recommend considering the following points:
 
 - Consider [color theory](https://en.wikipedia.org/wiki/Color_theory). Use it to give visitors a sense of formality or a warm welcome
 - Check how the colors play together with the theme's font family

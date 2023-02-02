@@ -75,7 +75,7 @@
 
 ## Quickstart
 
-At a bare minimum, you should customize the following in your Ghost admin panel: <br> <SiteOutput path="ghost/#/settings" />
+At a bare minimum, you should customize the following in your Ghost admin panel: <br> <ClientOnly> <SiteOutput path="ghost/#/settings" /></ClientOnly>
 
 - Change the Ghost accent color under `Settings > Design > Brand > Accent color`. <Color text="We recommend using this light blue variation - #bdc5d4" color="#bdc5d4"/>
 - If you're using [Ghost's membership flow](https://ghost.org/help/topic/members/), activate the built-in [static member pages](../customization/site/static-pages.md)
@@ -87,7 +87,7 @@ For your convenience, we've compiled a checklist to make the most out of your pu
 
 > We only assume that you've already setup your Ghost site and added a custom domain.
 
-<Checklist :items="todoItems" @change-item="onUpdate" />
+<ClientOnly> <Checklist :items="todoItems" @change-item="onUpdate" /></ClientOnly>
 
 ## Get Candidus
 

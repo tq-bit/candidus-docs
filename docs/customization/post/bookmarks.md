@@ -14,7 +14,7 @@ This feature is **disabled** by default.
 
 This feature can be enabled in your Ghost design settings under
 
-<SiteOutput path="ghost/#/settings/design" /> `> Posts > Enable bookmarks`
+<ClientOnly> <SiteOutput path="ghost/#/settings/design" /> </ClientOnly> `> Posts > Enable bookmarks`
 
 :::warning SUPPORTED DEVICES
 This feature is currently only availabe on desktop devices. Please note that a bookmark is only available in the same browser and on the same device where it has been initially saved.

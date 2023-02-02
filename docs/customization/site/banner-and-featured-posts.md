@@ -15,7 +15,7 @@ This feature's default is set to **Featured Posts**. <br/><u>Note that you canno
 
 You can change the behavior of the cover image in your design settings:
 
-<SiteOutput path="ghost/#/settings/design" /> `> Homepage > Select homepage banner style`
+<ClientOnly> <SiteOutput path="ghost/#/settings/design" /> </ClientOnly> `> Homepage > Select homepage banner style`
 
 Options:
 

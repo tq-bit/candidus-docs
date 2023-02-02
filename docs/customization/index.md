@@ -13,10 +13,11 @@ The result was a literal potpourri of fonts, colors and features.
 
 If you haven't done it already in the [welcome page](/), you can enter your blog's domain in the input field below. This documentation will then automatically create links to the relevant settings.
 
+<ClientOnly>
+  <SiteInput />
+</ClientOnly>
 
-<SiteInput />
-
-Example: <SiteOutput path="ghost/#/settings/design" />
+Example:<ClientOnly>  <SiteOutput path="ghost/#/settings/design" /> </ClientOnly>
 
 ## About Candidus customization
 

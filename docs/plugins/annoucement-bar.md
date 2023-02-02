@@ -8,7 +8,7 @@
 Have you just created an outstanding article you would like to highlight even above your featured posts? With Candidus, you can now do that using an annoucement bar.
 It's a standalone element which can be customized using [Ghost's Code Injection](https://ghost.org/changelog/post-code-injection/)
 
-<SiteOutput path="ghost/#/settings/code-injection"  />
+<ClientOnly> <SiteOutput path="ghost/#/settings/code-injection"  /></ClientOnly>
 
 :::tip ANNOUCEMENTS
 Annoucement bars are famous in online-shops and -communities to annouce events or new content. They're often one-liners with a link/CTA at the end
