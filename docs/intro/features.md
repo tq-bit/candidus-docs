@@ -25,12 +25,12 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 - Two additional customizable theme colors
 - Additional social accounts & icons
 - Card & feed layout for posts
-- A mobile friendly gallery for featured posts
-- A reading-progressbar
-- A table of contents section
+- Mobile friendly gallery for featured posts
+- Reading-progressbar
+- Table of contents section
 - A thoroughly designed post section
-- A social sharing toolbar
-- A bookmarking feature
+- Social sharing toolbar
+- Browser bookmarking feature
 - An announcement bar on the homepage (TBD)
 
 ## Missing something? Request it
