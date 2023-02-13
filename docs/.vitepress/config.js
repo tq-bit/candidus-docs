@@ -1,10 +1,15 @@
-module.exports = {
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
 	base: '/candidus-docs',
 	title: 'Candidus Documentation',
+	titleTemplate: 'Documentation for the Candidus Ghost Theme',
 	description:
 		'This Vitepress documentation serves static Vue.js components, sample code and snippets. Each of these may or may not be used in the Radunia project.',
 	lang: 'en-US',
-
+	lastUpdated: true,
+	appearance: true,
 	themeConfig: {
 		sidebar: [
 			{
@@ -86,8 +91,11 @@ module.exports = {
 		],
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: '🌍 Demo', link: 'https://blog.q-bit.me' },
+			{ text: 'Demo', link: 'https://blog.q-bit.me' },
+			{ text: 'Purchase', link: 'https://blog.q-bit.me' },
 		],
 		socialLinks: [{ icon: 'github', link: 'https://github.com/tq-bit/candidus-docs' }],
 	},
 };
+
+export default config;
