@@ -84,6 +84,6 @@ module.exports = {
 			{ text: 'Home', link: '/' },
 			{ text: '🌍 Demo', link: 'https://blog.q-bit.me' },
 		],
-		socialLinks: [{ icon: 'github', link: 'https://github.com' }],
+		socialLinks: [{ icon: 'github', link: 'https://github.com/tq-bit/candidus-docs' }],
 	},
 };

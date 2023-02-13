@@ -11,7 +11,11 @@ const onChange = (ev) => (window ? urlStore.setBlogUrl(ev.target.value) : null);
 </script>
 
 <template>
-	<a :href="url" target="_blank">{{ url }}</a>
+	<a class="site-output" :href="url" target="_blank">{{ url }}</a>
 </template>
 
-<style scoped></style>
+<style scoped>
+.site-output {
+	display: block;
+}
+</style>
