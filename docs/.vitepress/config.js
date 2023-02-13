@@ -70,6 +70,10 @@ module.exports = {
 				text: 'Support',
 				items: [
 					{
+						text: 'FAQ',
+						link: '/contact/faq',
+					},
+					{
 						text: 'Contact us',
 						link: '/contact/form',
 					},
