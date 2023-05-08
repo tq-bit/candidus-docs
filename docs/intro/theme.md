@@ -20,7 +20,9 @@ With "we", I'm referring to:
 
 ## Candidus Philosophy
 
-Candidus, translated from latin, means as much as 'white', 'bright' or 'open'. Its name emphasizes the theme's philosophy. We've built Candidus around three core pillars:
+Candidus, translated from latin, means as much as 'white', 'bright' or 'open'. Its name emphasizes the theme's philosophy. We've built Candidus around three core pillars
+
+![a sketch of an acropolis with three pillars labelled 'Spotlight the content', 'Let it shine, keep it simple' and 'Empower the publisher'](../assets/candidus-principles.png)
 
 ### 1. Spotlight the content, don't steal the show
 
