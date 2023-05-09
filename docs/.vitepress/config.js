@@ -79,8 +79,8 @@ const config = {
 						link: '/contact/faq',
 					},
 					{
-						text: 'Contact us',
-						link: '/contact/form',
+						text: 'Report an issue',
+						link: '/contact/issue',
 					},
 					{
 						text: 'Request a translation',
