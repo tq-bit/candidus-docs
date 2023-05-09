@@ -52,6 +52,10 @@ const config = {
 						text: 'Bookmarks',
 						link: '/customization/post/bookmarks',
 					},
+					{
+						text: 'Table of contents',
+						link: '/customization/post/table-of-contents'
+					}
 				],
 			},
 			{
