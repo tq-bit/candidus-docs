@@ -30,7 +30,6 @@ window.CANDIDUS = {
     barColor: "primary",    // theme, primary, secondary, accent
     textColor: "#fabbaf",   // any hex or RBG color of your liking
     remainClosed: "never",  // never, day, week, always
-    delayToDisplay: 1000    // in miliseconds
   }
   // ... other plugin options
 }
@@ -38,6 +37,8 @@ window.CANDIDUS = {
 ```
 
 ## Example
+
+![](../assets/candidus-feature-annoucement-bar.gif)
 
 ## Property overview
 

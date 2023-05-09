@@ -31,7 +31,7 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 - A thoroughly designed post section
 - Social sharing toolbar
 - Browser bookmarking feature
-- An announcement bar on the homepage (TBD)
+- An announcement bar on the homepage
 
 ## Missing something? Request it
 

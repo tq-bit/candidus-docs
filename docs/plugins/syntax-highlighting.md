@@ -1,1 +1,52 @@
+<script setup>
+  import SiteOutput from '../../components/SiteOutput.vue'
+</script>
+
 # Syntax highlighting
+
+Candidus uses [Prismjs](https://prismjs.com/) for color highlighting. Its [autoloader plugin](https://prismjs.com/plugins/autoloader/) makes sure that only the code grammars you need are loaded. Additional scripts and styles are only loaded if this plugin is enabled.
+
+<ClientOnly> <SiteOutput path="ghost/#/settings/code-injection" /> </ClientOnly>
+
+
+## Add syntax highlighting to your page
+
+Syntax highlighting uses Candidus' Plugin System. The `theme` property is optional - if left out, the syntax theme will be adjusted to your user's current Blog Theme preference (`light` or `dark`)
+
+```html
+<script>
+window.CANDIDUS = {
+  SYNTAX_HIGHLIGHTER: {
+  	type: "prism",
+    theme: "dark" // or 'light'. Optional
+  }
+  // ... other plugin options
+}
+</script>
+```
+
+## Example
+
+
+- Candidus supports [all language libraries](https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+abap+abnf+actionscript+ada+agda+al+antlr4+apacheconf+apex+apl+applescript+aql+arduino+arff+armasm+arturo+asciidoc+aspnet+asm6502+asmatmel+autohotkey+autoit+avisynth+avro-idl+awk+bash+basic+batch+bbcode+bbj+bicep+birb+bison+bnf+bqn+brainfuck+brightscript+bro+bsl+c+csharp+cpp+cfscript+chaiscript+cil+cilkc+cilkcpp+clojure+cmake+cobol+coffeescript+concurnas+csp+cooklang+coq+crystal+css-extras+csv+cue+cypher+d+dart+dataweave+dax+dhall+diff+django+dns-zone-file+docker+dot+ebnf+editorconfig+eiffel+ejs+elixir+elm+etlua+erb+erlang+excel-formula+fsharp+factor+false+firestore-security-rules+flow+fortran+ftl+gml+gap+gcode+gdscript+gedcom+gettext+gherkin+git+glsl+gn+linker-script+go+go-module+gradle+graphql+groovy+haml+handlebars+haskell+haxe+hcl+hlsl+hoon+http+hpkp+hsts+ichigojam+icon+icu-message-format+idris+ignore+inform7+ini+io+j+java+javadoc+javadoclike+javastacktrace+jexl+jolie+jq+jsdoc+js-extras+json+json5+jsonp+jsstacktrace+js-templates+julia+keepalived+keyman+kotlin+kumir+kusto+latex+latte+less+lilypond+liquid+lisp+livescript+llvm+log+lolcode+lua+magma+makefile+markdown+markup-templating+mata+matlab+maxscript+mel+mermaid+metafont+mizar+mongodb+monkey+moonscript+n1ql+n4js+nand2tetris-hdl+naniscript+nasm+neon+nevod+nginx+nim+nix+nsis+objectivec+ocaml+odin+opencl+openqasm+oz+parigp+parser+pascal+pascaligo+psl+pcaxis+peoplecode+perl+php+phpdoc+php-extras+plant-uml+plsql+powerquery+powershell+processing+prolog+promql+properties+protobuf+pug+puppet+pure+purebasic+purescript+python+qsharp+q+qml+qore+r+racket+cshtml+jsx+tsx+reason+regex+rego+renpy+rescript+rest+rip+roboconf+robotframework+ruby+rust+sas+sass+scss+scala+scheme+shell-session+smali+smalltalk+smarty+sml+solidity+solution-file+soy+sparql+splunk-spl+sqf+sql+squirrel+stan+stata+iecst+stylus+supercollider+swift+systemd+t4-templating+t4-cs+t4-vb+tap+tcl+tt2+textile+toml+tremor+turtle+twig+typescript+typoscript+unrealscript+uorazor+uri+v+vala+vbnet+velocity+verilog+vhdl+vim+visual-basic+warpscript+wasm+web-idl+wgsl+wiki+wolfram+wren+xeora+xml-doc+xojo+xquery+yaml+yang+zig&plugins=autoloader) you can download from the project's homepage.
+- The necessary grammar libraries are part of the theme and do not rely on any third-party infrastructure.
+- Only language grammars that are part of your article will be loaded
+
+### Without property 'theme'
+
+```js
+  SYNTAX_HIGHLIGHTER: {
+  	type: "prism",
+  }
+```
+
+![](../../assets/candidus-feature-syntax-highlight-default.gif)
+
+```js
+  SYNTAX_HIGHLIGHTER: {
+  	type: "prism",
+    theme: "dark"
+  }
+```
+### With property 'theme' set to 'dark'
+![](../../assets/candidus-feature-syntax-highlight-dark.gif)

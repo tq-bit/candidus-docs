@@ -37,7 +37,7 @@ All of the coming posts share the following basic structure:
 - How does it work?
 
 :::info CODE SNIPPETS
-The 'How does it work' sections includes code snippets from the actual Candidus Project. This documentation is licensed under the MIT License, so unless otherwisely noted, you can use all of them in your own theme or project.
+The 'How does it work' sections includes code snippets from the actual Candidus Project. This documentation is licensed under the MIT License, so unless otherwisely noted, you can use all of them in your own theme or project. Please note that Candidus itself is a Ghost Premium theme with a proprietary license.
 :::
 
 ## Customizations vs. Plugins
@@ -46,3 +46,9 @@ Plugins are loosely coupled modules and not handled in Ghost's admin settings. T
 
 - customizations are built into Candidus itself and tightly coupled with the theme. They're integrated using Ghost's Custom Settings feature
 - plugins are open source third-party packages or built on them. They're integrated using Ghost's Code Injection feature
+
+|                       | Customizations    | Plugins         |
+| --------------------- | ----------------- | --------------- |
+| Coupling to the theme | Tightly coupled   | Loosely coupled |
+| Applied via           | Ghost Admin panel | Code Injection  |
+| Example feature       | Table of contents | Social Icons    |

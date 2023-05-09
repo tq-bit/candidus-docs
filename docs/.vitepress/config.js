@@ -66,8 +66,8 @@ const config = {
 						link: '/plugins/annoucement-bar',
 					},
 					{
-						text: 'Code editor colors',
-						link: '/plugins/code-colors',
+						text: 'Syntax highlighting',
+						link: '/plugins/syntax-highlighting',
 					},
 				],
 			},
