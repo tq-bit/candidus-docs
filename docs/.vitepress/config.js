@@ -41,6 +41,10 @@ const config = {
 						link: '/customization/site/static-pages',
 					},
 					{
+						text: 'Call to action',
+						link: '/customization/site/call-to-action',
+					},
+					{
 						text: 'Reading progress bar',
 						link: '/customization/post/reading-progress',
 					},
@@ -54,8 +58,8 @@ const config = {
 					},
 					{
 						text: 'Table of contents',
-						link: '/customization/post/table-of-contents'
-					}
+						link: '/customization/post/table-of-contents',
+					},
 				],
 			},
 			{
