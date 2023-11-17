@@ -8,7 +8,7 @@
 
 # About the theme
 
-Thank you for taking the time to read how Candidus to be! We spent lots of time thinking every component of the theme through and hope you're happy with the final result.
+Thank you for taking the time to read how Candidus came to be! We spent lots of time thinking every component of the theme through and hope you're happy with the final result.
 
 ## About its creators
 

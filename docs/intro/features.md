@@ -26,12 +26,13 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 - Additional social accounts & icons
 - Card & feed layout for posts
 - Mobile friendly gallery for featured posts
+- A fully customizable CTA card (even if default subscription is disabled)
 - Reading-progressbar
 - Table of contents section
 - A thoroughly designed post section
 - Social sharing toolbar
 - Browser bookmarking feature
-- An announcement bar on the homepage
+- ~~An announcement bar on the homepage~~ [Replaced by the default announcement bar](https://ghost.org/help/announcement-bar/)
 
 ## Missing something? Request it
 
