@@ -70,10 +70,6 @@ const config = {
 						link: '/plugins/social-icons',
 					},
 					{
-						text: 'Annoucement bar',
-						link: '/plugins/annoucement-bar',
-					},
-					{
 						text: 'Syntax highlighting',
 						link: '/plugins/syntax-highlighting',
 					},
