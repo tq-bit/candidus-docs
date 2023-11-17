@@ -1,1 +1,0 @@
-import{o as e,c as o,a as l,t as n}from"../app.15e96037.js";const c={class:"color",width:"18",height:"18"},r=["fill"],p={__name:"Color",props:{text:{type:String},color:{type:String}},setup(t){const s=t;return(a,i)=>(e(),o("div",null,[(e(),o("svg",c,[l("rect",{width:"12",height:"12",fill:s.color},null,8,r)])),l("span",null,n(t.text),1)]))}};export{p as _};
