@@ -11,6 +11,9 @@ const config = {
 	lastUpdated: true,
 	appearance: true,
 	themeConfig: {
+		search: {
+			provider: 'local',
+		},
 		sidebar: [
 			{
 				text: 'Introduction',

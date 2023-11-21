@@ -1,9 +1,25 @@
 <script setup>
-  import Grid from '../../components/Grid.vue'
-  import Person from '../../components/Person.vue'
-  import ImageTobi from '../assets/tobi.jpeg';
-  import ImageCvi from '../assets/cvi.jpeg';
+import { VPTeamMembers } from 'vitepress/theme'
 
+const members = [
+  {
+    avatar: '/candidus-docs/assets/cvi.jpeg',
+    name: 'Tsvetomira Dichevska',
+    title: 'My partner in design and life',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/tsvetomira-dichevska/' }
+    ]
+  },
+  {
+    avatar: '/candidus-docs/assets/tobi.jpeg',
+    name: 'Tobias Quante',
+    title: 'Myself, a self-taught developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/tq-bit' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/tobias-quante-764aa1140/' }
+    ]
+  },
+]
 </script>
 
 # About the theme
@@ -13,10 +29,8 @@ Thank you for taking the time to read how Candidus came to be! We spent lots of 
 ## About its creators
 
 With "we", I'm referring to:
-<Grid>
-  <Person :image="ImageCvi" name="Tsvetomira Dichevska" text="My partner in design and in life" link="https://www.linkedin.com/in/tsvetomira-dichevska/" />
-  <Person :image="ImageTobi" name="Tobias Quante" text="Myself, a self-taught developer" link="https://www.linkedin.com/in/tobias-quante-764aa1140/" />
-</Grid>
+<VPTeamMembers size="medium" :members="members" />
+
 
 ## Candidus Philosophy
 
