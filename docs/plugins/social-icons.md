@@ -109,47 +109,47 @@ The following social icons are available to use in your theme:
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use  xlink:href='#facebook'></use>
-</svg> <p class="icon-title">Facebook via <pre>#facebook</pre></p>
+</svg> <span class="icon-title">Facebook via <pre>#facebook</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#twitter'></use>
-</svg> <p class="icon-title">Twitter via <pre>#twitter</pre></p>
+</svg> <span class="icon-title">Twitter via <pre>#twitter</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#instagram'></use>
-</svg> <p class="icon-title">Instagram via <pre>#instagram</pre></p>
+</svg> <span class="icon-title">Instagram via <pre>#instagram</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#linkedin'></use>
-</svg> <p class="icon-title">Linkedin via <pre>#linkedin</pre></p>
+</svg> <span class="icon-title">Linkedin via <pre>#linkedin</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#youtube'></use>
-</svg> <p class="icon-title">Youtube via <pre>#youtube</pre></p>
+</svg> <span class="icon-title">Youtube via <pre>#youtube</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#github'></use>
-</svg> <p class="icon-title">Github via <pre>#github</pre></p>
+</svg> <span class="icon-title">Github via <pre>#github</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#pinterest'></use>
-</svg> <p class="icon-title">Pinterest via <pre>#pinterest</pre></p>
+</svg> <span class="icon-title">Pinterest via <pre>#pinterest</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#website'></use>
-</svg> <p class="icon-title">Website via <pre>#website</pre></p>
+</svg> <span class="icon-title">Website via <pre>#website</pre></span>
 </div>
 <div class="icon-wrapper">
 <svg class="icon" width='24px' height='24px' role='img'>
     <use xlink:href='#reddit'></use>
-</svg> <p class="icon-title">Reddit via <pre>#reddit</pre></p>
+</svg> <span class="icon-title">Reddit via <pre>#reddit</pre></span>
 </div>
 
 
