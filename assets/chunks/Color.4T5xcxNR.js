@@ -1,0 +1,1 @@
+import{o as e,c as o,j as s,t as c}from"./framework.vShOGE-j.js";const r={class:"color",width:"18",height:"18"},n=["fill"],h={__name:"Color",props:{text:{type:String},color:{type:String}},setup(t){const l=t;return(i,a)=>(e(),o("div",null,[(e(),o("svg",r,[s("rect",{width:"12",height:"12",fill:l.color},null,8,n)])),s("span",null,c(t.text),1)]))}};export{h as _};

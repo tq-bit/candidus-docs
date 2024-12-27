@@ -1,0 +1,1 @@
+import{p as s,h as c}from"./framework.vShOGE-j.js";const o=typeof window<"u",e="candidus.docs.blog-url",l=s(o?localStorage==null?void 0:localStorage.getItem(e):"candidus.q-bit.me"),n=t=>{o&&(l.value=t,localStorage==null||localStorage.setItem(e,t))},r=c(()=>l.value),d={setBlogUrl:n,getBlogUrl:r};export{d as u};
