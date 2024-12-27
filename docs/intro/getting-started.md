@@ -9,7 +9,7 @@
     id: 1,
     done: false,
     text: "Get Candidus",
-    link: ""
+    link: "https://github.com/tq-bit/candidus/releases"
   },{
     id: 2,
     done: false,
@@ -25,11 +25,6 @@
     done: false,
     text: "Add your social media channels",
     link: "/candidus-docs/plugins/social-icons.html"
-  }, {
-    id: 5,
-    done: false,
-    text: "Activate static membership pages",
-    link: "/candidus-docs/customization/site/static-pages"
   },{
     id: 6,
     done: false,
@@ -88,6 +83,4 @@ For your convenience, we've compiled a checklist to make the most out of your pu
 > We only assume that you've already setup your Ghost site and added a custom domain.
 
 <ClientOnly> <Checklist :items="todoItems" @change-item="onUpdate" /></ClientOnly>
-
-## Get Candidus
 

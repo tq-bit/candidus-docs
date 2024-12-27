@@ -17,12 +17,8 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 ## Candidus Theme features
 
 - Fully responsive
-- Prebuilt static content
-  - Login & signup pages
-  - Tag & author - pages
 - Light & dark theme
 - Self-hosted fonts
-- Two additional customizable theme colors
 - Additional social accounts & icons
 - Card & feed layout for posts
 - Mobile friendly gallery for featured posts
@@ -35,7 +31,9 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 - A thoroughly designed post section
 - Social sharing toolbar
 - Browser bookmarking feature for desktop devices
+- Syntax highlighting plugin
 - ~~An announcement bar on the homepage~~ [Replaced by the default announcement bar](https://ghost.org/help/announcement-bar/)
+- A direct link to ChatGPT to chat with the article's content
 
 ## Missing something? Request it
 

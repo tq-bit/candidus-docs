@@ -2,7 +2,7 @@ import { ref, computed } from 'vue';
 
 const isClientSide = typeof window !== 'undefined';
 const STORAGE_KEY = 'candidus.docs.blog-url';
-const blogUrlState = ref(isClientSide ? localStorage?.getItem(STORAGE_KEY) : '');
+const blogUrlState = ref(isClientSide ? localStorage?.getItem(STORAGE_KEY) : 'candidus.q-bit.me');
 const setBlogUrl = (value) => {
 	if (isClientSide) {
 		blogUrlState.value = value;

@@ -10,6 +10,6 @@ Congratulations on your new favorite Ghost theme! We hope you'll have lots of fu
 > For your convenience, you can enter your blog's domain in the field below. All links in this documentation will direct you exactly where you'll want to go.
 
 <ClientOnly>
-  <SiteInput />
+  <SiteInput  />
 </ClientOnly>
 Preview: <ClientOnly> <SiteOutput path="ghost/#/settings/" /> </ClientOnly>

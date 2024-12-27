@@ -40,10 +40,6 @@ const config = {
 						link: '/customization/site/banner-and-featured-posts',
 					},
 					{
-						text: 'Login & signup pages',
-						link: '/customization/site/static-pages',
-					},
-					{
 						text: 'Call to action',
 						link: '/customization/site/call-to-action',
 					},
@@ -98,10 +94,9 @@ const config = {
 		],
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Demo', link: 'https://blog.q-bit.me' },
-			{ text: 'Purchase', link: 'https://blog.q-bit.me' },
+			{ text: 'Demo', link: 'https://candidus.q-bit.me' },
 		],
-		socialLinks: [{ icon: 'github', link: 'https://github.com/tq-bit/candidus-docs' }],
+		socialLinks: [{ icon: 'github', link: 'https://github.com/tq-bit/candidus' }],
 	},
 };
 

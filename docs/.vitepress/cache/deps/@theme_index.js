@@ -1,11 +1,12 @@
 import {
   useMediaQuery
-} from "./chunk-EGENHRRB.js";
+} from "./chunk-YJ6QP2VR.js";
 import {
   computed,
   ref,
+  shallowRef,
   watch
-} from "./chunk-V7AUFIRV.js";
+} from "./chunk-LW4I4DCF.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
@@ -13,6 +14,7 @@ import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepres
 // node_modules/vitepress/dist/client/theme-default/without-fonts.js
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/icons.css";
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
@@ -21,20 +23,22 @@ import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepres
 import "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
 import VPBadge from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
 import Layout from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
-import { default as default3 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
-import { default as default4 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default5 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default6 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default7 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default8 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
-import { default as default9 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default10 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default11 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default12 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
-
-// node_modules/vitepress/dist/client/shared.js
-var inBrowser = typeof document !== "undefined";
+import { default as default2 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import { default as default3 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
+import { default as default4 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
+import { default as default5 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeContent.vue";
+import { default as default6 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default7 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default8 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default9 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPLink.vue";
+import { default as default10 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default11 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPSocialLink.vue";
+import { default as default12 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPSocialLinks.vue";
+import { default as default13 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
+import { default as default14 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default15 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default16 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default17 } from "/home/tobiq/Development/dev_projects/candidus-docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
 // node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
@@ -147,11 +151,90 @@ function useSidebar() {
     toggle
   };
 }
-var hashRef = ref(inBrowser ? location.hash : "");
-if (inBrowser) {
-  window.addEventListener("hashchange", () => {
-    hashRef.value = location.hash;
+
+// node_modules/vitepress/dist/client/theme-default/composables/local-nav.js
+import { onContentUpdated } from "vitepress";
+
+// node_modules/vitepress/dist/client/theme-default/composables/outline.js
+import { getScrollOffset } from "vitepress";
+var resolvedHeaders = [];
+function getHeaders(range) {
+  const headers = [
+    ...document.querySelectorAll(".VPDoc :where(h1,h2,h3,h4,h5,h6)")
+  ].filter((el) => el.id && el.hasChildNodes()).map((el) => {
+    const level = Number(el.tagName[1]);
+    return {
+      element: el,
+      title: serializeHeader(el),
+      link: "#" + el.id,
+      level
+    };
   });
+  return resolveHeaders(headers, range);
+}
+function serializeHeader(h) {
+  let ret = "";
+  for (const node of h.childNodes) {
+    if (node.nodeType === 1) {
+      if (node.classList.contains("VPBadge") || node.classList.contains("header-anchor") || node.classList.contains("ignore-header")) {
+        continue;
+      }
+      ret += node.textContent;
+    } else if (node.nodeType === 3) {
+      ret += node.textContent;
+    }
+  }
+  return ret.trim();
+}
+function resolveHeaders(headers, range) {
+  if (range === false) {
+    return [];
+  }
+  const levelsRange = (typeof range === "object" && !Array.isArray(range) ? range.level : range) || 2;
+  const [high, low] = typeof levelsRange === "number" ? [levelsRange, levelsRange] : levelsRange === "deep" ? [2, 6] : levelsRange;
+  return buildTree(headers, high, low);
+}
+function buildTree(data, min, max) {
+  resolvedHeaders.length = 0;
+  const result = [];
+  const stack = [];
+  data.forEach((item) => {
+    const node = { ...item, children: [] };
+    let parent = stack[stack.length - 1];
+    while (parent && parent.level >= node.level) {
+      stack.pop();
+      parent = stack[stack.length - 1];
+    }
+    if (node.element.classList.contains("ignore-header") || parent && "shouldIgnore" in parent) {
+      stack.push({ level: node.level, shouldIgnore: true });
+      return;
+    }
+    if (node.level > max || node.level < min)
+      return;
+    resolvedHeaders.push({ element: node.element, link: node.link });
+    if (parent)
+      parent.children.push(node);
+    else
+      result.push(node);
+    stack.push(node);
+  });
+  return result;
+}
+
+// node_modules/vitepress/dist/client/theme-default/composables/local-nav.js
+function useLocalNav() {
+  const { theme: theme2, frontmatter } = useData();
+  const headers = shallowRef([]);
+  const hasLocalNav = computed(() => {
+    return headers.value.length > 0;
+  });
+  onContentUpdated(() => {
+    headers.value = getHeaders(frontmatter.value.outline ?? theme2.value.outline);
+  });
+  return {
+    headers,
+    hasLocalNav
+  };
 }
 
 // node_modules/vitepress/dist/client/theme-default/without-fonts.js
@@ -163,18 +246,24 @@ var theme = {
 };
 var without_fonts_default = theme;
 export {
-  default3 as VPButton,
-  default7 as VPDocAsideSponsors,
-  default5 as VPHomeFeatures,
-  default4 as VPHomeHero,
-  default6 as VPHomeSponsors,
-  default2 as VPImage,
-  default8 as VPSponsors,
-  default12 as VPTeamMembers,
-  default9 as VPTeamPage,
-  default11 as VPTeamPageSection,
-  default10 as VPTeamPageTitle,
+  default2 as VPBadge,
+  default4 as VPButton,
+  default10 as VPDocAsideSponsors,
+  default5 as VPHomeContent,
+  default7 as VPHomeFeatures,
+  default6 as VPHomeHero,
+  default8 as VPHomeSponsors,
+  default3 as VPImage,
+  default9 as VPLink,
+  default11 as VPSocialLink,
+  default12 as VPSocialLinks,
+  default13 as VPSponsors,
+  default17 as VPTeamMembers,
+  default14 as VPTeamPage,
+  default16 as VPTeamPageSection,
+  default15 as VPTeamPageTitle,
   without_fonts_default as default,
+  useLocalNav,
   useSidebar
 };
 //# sourceMappingURL=@theme_index.js.map

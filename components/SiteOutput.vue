@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue';
 import urlStore from './store/url';
 
-const siteUrl = window ? urlStore.getBlogUrl : ref('');
+const siteUrl = window ? urlStore.getBlogUrl : ref('candidus.q-bit.me');
 const props = defineProps({
 	path: { type: String },
 });

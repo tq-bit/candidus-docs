@@ -14,12 +14,7 @@ Ghost's default color is not automatically changed when you upload the theme. <b
 
 ## Customize this feature
 
-You can change the default colors in your design settings:
-
-<ClientOnly> <SiteOutput path="ghost/#/settings/design" /></ClientOnly>
-
-- `Settings > Design > Site Wide > Primary/Secondary Color`
-- `Settings > Design > Brand > Accent color`
+You can change the default colors by modifying the `varaibles.scss` file and run `npm run build` locally.
 
 ## Default colors
 
@@ -36,39 +31,3 @@ The default pallette is optimized to be displayed with [Candidus' light and dark
 - Consider [color theory](https://en.wikipedia.org/wiki/Color_theory). Use it to give visitors a sense of formality or a warm welcome
 - Check how the colors play together with the theme's font family
 - Have a look at [all sites of the theme](../../intro/pages.md) in light & dark mode
-
-
-
-
-## How does it work?
-
-All three colors variables are directly injected into the DOM. They're available on every page and operate independently from all other style parts of the theme.
-
-:::tip MIND THE SYNTAX
-Please note that this is Ghost Handlebars syntax. Implementing theming is commonly done by giving the root-element a special CSS - class or data-attribute
-:::
-
-This is the ruleset that incorporates Candidus' primary and secondary colors.
-
-```hbs
-<style>
-  :root {
-    {{#if @custom.primary_color}}
-      --color-primary: {{@custom.primary_color}};
-    {{/if}}
-    {{#if @custom.secondary_color}}
-      --color-secondary: {{@custom.secondary_color}};
-    {{/if}}
-  }
-</style>
-```
-
-Ghost's accent color is injected in a very similar fashion:
-
-```hbs
-<style>
-  :root {
-      --ghost-accent-color: #bdc5d4;
-  }
-</style>
-```
