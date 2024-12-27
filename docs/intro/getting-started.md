@@ -73,8 +73,7 @@
 At a bare minimum, you should customize the following in your Ghost admin panel: <br> <ClientOnly> <SiteOutput path="ghost/#/settings" /></ClientOnly>
 
 - Change the Ghost accent color under `Settings > Design > Brand > Accent color`. <Color text="We recommend using this light blue variation - #bdc5d4" color="#bdc5d4"/>
-- If you're using [Ghost's membership flow](https://ghost.org/help/topic/members/), activate the built-in [static member pages](../customization/site/static-pages.md)
-
+- Take a look at the customization options Candidus offers and activate a few
 
 ## Checklist
 
