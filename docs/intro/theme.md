@@ -3,7 +3,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/assets/cvi.jpeg',
+    avatar: 'https://media.licdn.com/dms/image/v2/D4E03AQGgFYQdiJLVDg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1690220524294?e=1741219200&v=beta&t=dpODWOA7asKTN6xZMzf-WqnoJBCpudm_3EJ-r36MmIM',
     name: 'Tsvetomira Dichevska',
     title: 'My partner in design and life',
     links: [
@@ -11,7 +11,7 @@ const members = [
     ]
   },
   {
-    avatar: '/assets/tobi.jpeg',
+    avatar: 'https://media.licdn.com/dms/image/v2/C4D03AQG59yoTp5mHMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1649258721458?e=1741219200&v=beta&t=s8VxYi5v4qEUiMuMx5QvNgPIv7m3ocG-0Cy6_2RlZZo',
     name: 'Tobias Quante',
     title: 'Myself, a self-taught developer',
     links: [
