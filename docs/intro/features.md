@@ -13,12 +13,13 @@ Ghost comes with [lots of features](https://ghost.org/feature-index/) Candidus m
 - Member workflows
 - Built-in search and comments
 - Code injection
+- Custom fonts
 
 ## Candidus Theme features
 
 - Fully responsive
 - Light & dark theme
-- Self-hosted fonts
+- Self-hosted default fonts
 - Additional social accounts & icons
 - Card & feed layout for posts
 - Mobile friendly gallery for featured posts
