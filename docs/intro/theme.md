@@ -3,7 +3,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: '/candidus-docs/assets/cvi.jpeg',
+    avatar: '/assets/cvi.jpeg',
     name: 'Tsvetomira Dichevska',
     title: 'My partner in design and life',
     links: [
@@ -11,7 +11,7 @@ const members = [
     ]
   },
   {
-    avatar: '/candidus-docs/assets/tobi.jpeg',
+    avatar: '/assets/tobi.jpeg',
     name: 'Tobias Quante',
     title: 'Myself, a self-taught developer',
     links: [

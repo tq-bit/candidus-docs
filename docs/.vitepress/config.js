@@ -20,7 +20,6 @@ const config = {
 				items: [
 					{ text: 'Getting started', link: '/intro/getting-started' },
 					{ text: 'Feature overview', link: '/intro/features' },
-					{ text: 'Page structure', link: '/intro/pages' },
 					{ text: 'About the theme', link: '/intro/theme' },
 				],
 			},
